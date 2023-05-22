@@ -18,7 +18,6 @@
                   <tr>
                     <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Nama</th>
                     <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Jenis Kelamin</th>
-                    <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">No Telpon</th>
                     <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Alamat</th>
                     <th class="text-secondary opacity-7"></th>
                   </tr>

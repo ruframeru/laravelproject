@@ -2,8 +2,8 @@
     <div class="sidenav-header">
       <i class="fas fa-times p-3 cursor-pointer text-secondary opacity-5 position-absolute end-0 top-0 d-none d-xl-none" aria-hidden="true" id="iconSidenav"></i>
       <a class="navbar-brand m-0" href="{{ asset('tampilan/https://demos.creative-tim.com/argon-dashboard/pages/dashboard.html') }} " target="_blank">
-        <img src="{{ asset('tampilan/assets/img/logo-ct-dark.png') }}" class="navbar-brand-img h-100" alt="main_logo">
-        <span class="ms-1 font-weight-bold">Argon Dashboard 2</span>
+        {{-- <img src="{{ asset('tampilan/assets/img/logo-ct-dark.png') }}" class="navbar-brand-img h-100" alt="main_logo"> --}}
+        <span class="ms-1 font-weight-bold">SEKOLAH MENENGAH ATAS</span>
       </a>
     </div>
     <hr class="horizontal dark mt-0">
@@ -65,16 +65,16 @@
       </ul>
     </div>
     <div class="sidenav-footer mx-3 ">
-        <div class="card card-plain shadow-none" id="sidenavCard">
+        <div class="card card-plain shadow-none align-items-center justify-content-center" id="sidenavCard">
           <img class="w-30 border-radius-lg shadow-sm" src="{{ asset('tampilan/assets/img/team-1.jpg') }}" alt="sidebar_illustration">
-          <div class="card-body text-center p-3 w-100 pt-0">
+          <div class="card-body text-center p-3 w-100 pt-0 mt-3">
             <div class="docs-info">
               <h6 class="mb-0">{{ Auth::user()->name }}</h6>
               <p class="text-xs font-weight-bold mb-0"></p>
             </div>
           </div>
         </div>
-        <a href="" target="_blank" class="btn btn-dark btn-sm w-100 mb-3">Documentation</a>
+        <a href="" target="_blank" class="btn btn-dark btn-sm w-100 mb-3">Ganti Foto</a>
         <a class="btn btn-primary btn-sm mb-0 w-100" href="{{ route('logout') }}" type="button"
         onclick="event.preventDefault();
         document.getElementById('logout-form').submit();">
@@ -83,5 +83,5 @@
             @csrf
         </form>
         </a>
-      </div>
+    </div>
   </aside>

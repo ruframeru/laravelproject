@@ -27,7 +27,10 @@
               <div class="col-md-12">
                 <div class="form-group">
                   <label for="example-text-input" class="form-control-label">Jenis Kelamin</label>
-                  <input class="form-control" type="text" name="jenkel">
+                  <select class="form-select" name="jenkel" aria-label="Default select example">
+                    <option value="Laki-Laki">Laki-Laki</option>
+                    <option value="Perempuan">Perempuan</option>
+                  </select>
                   <div class="text-danger text-sm">
                     @error('jenkel')
                         {{ $message }}

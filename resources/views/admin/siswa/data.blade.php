@@ -1,5 +1,8 @@
 @extends('tampilan.master')
 
+@section('judul', 'Siswa')
+@section('judul2', 'Data Table Siswa')
+
 @section('isi')
 <div class="container-fluid py-4">
     <div class="row">
